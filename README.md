@@ -1,2 +1,2 @@
-# pgk-manager
+# pkg-manager
 Package management for offline
