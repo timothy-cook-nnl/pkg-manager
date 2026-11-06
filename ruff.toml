@@ -1,0 +1,26 @@
+
+exclude = [
+    "**/.pixi/**",
+    "**/build/**",
+    "**/install/**",
+    "**/log/**"
+]
+
+
+# Same as Black.
+line-length = 120
+indent-width = 4
+
+# Assume Python 3.14
+target-version = "py314"
+
+[lint]
+# sort imports
+extend-select = ["I"]
+
+# Allow fix for all enabled rules (when `--fix`) is provided.
+fixable = ["ALL"]
+
+[format]
+#  use double quotes for strings.
+quote-style = "double"

@@ -1,0 +1,14 @@
+{
+    "python-envs.defaultEnvManager": "renan-r-santos.pixi-code:pixi",
+    "python-envs.defaultPackageManager": "renan-r-santos.pixi-code:pixi",
+
+    "ruff.configuration": ".\\ruff.toml",
+    "[python]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+        }
+    }
+    
+}

@@ -1,0 +1,4 @@
+
+
+pixi workspace channel add https://prefix.dev/robostack-jazzy
+pixi add ros-jazzy-<package>
